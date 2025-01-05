@@ -38,16 +38,23 @@ Ensure you have the following installed:
    git clone https://github.com/Devansh-Maheshwari/real-time-comment.git  
    cd real-time-comment
 
+---
+
 **backend setup**
+  ```bash
   cd Backend
   npm install
 
-  update mysql credentials
+  **update mysql credentials**
 
   **start server**
-  node server.js
+```bash
+   node server.js
+
+---
 
   **frontend set up**
+```bash
    cd frontend
    npm install
    npm run dev 
