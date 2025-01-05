@@ -45,7 +45,11 @@ Ensure you have the following installed:
   cd Backend
   npm install
 
+---
+
   **update mysql credentials**
+
+---
 
   **start server**
 ```bash
