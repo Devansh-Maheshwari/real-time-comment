@@ -39,26 +39,17 @@ Ensure you have the following installed:
    cd real-time-comment
 
 ---
+# Install dependencies and start both backend and frontend
 
-**backend setup**
-  ```bash
-  cd Backend
-  npm install
+# Backend setup
+cd backend
+npm install
+# Update MySQL credentials in backend/config.js file (see below for more details)
 
----
+# Start the backend server
+node server.js &
 
-  **update mysql credentials**
-
----
-
-  **start server**
-```bash
-   node server.js
-
----
-
-  **frontend set up**
-```bash
-   cd frontend
-   npm install
-   npm run dev 
+# Frontend setup
+cd ../frontend
+npm install
+npm run dev
